@@ -1,0 +1,90 @@
+.nz-signup-container {
+  background-color: #fffefe;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  width: 67.1%;
+  height: 71.7%;
+  max-width: 912px;
+  min-width: 850px;
+  max-height: 551px;
+  min-height: 520px;
+  display: flex; }
+  .nz-signup-container .nz-signup-container-column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 34px; }
+    .nz-signup-container .nz-signup-container-column h1 {
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #1fbaff;
+      margin-bottom: 32px; }
+    .nz-signup-container .nz-signup-container-column ul {
+      list-style-type: none; }
+      .nz-signup-container .nz-signup-container-column ul li {
+        font-size: 18px;
+        font-family: 'Roboto Condensed'; }
+        .nz-signup-container .nz-signup-container-column ul li:not(:last-child) {
+          margin-bottom: 8px; }
+    .nz-signup-container .nz-signup-container-column:first-child {
+      background-image: url("/assets/images/ilustracion@3x.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-origin: content-box; }
+    .nz-signup-container .nz-signup-container-column form {
+      display: flex;
+      flex-direction: column;
+      padding-top: 5%;
+      height: 100%;
+      justify-content: space-between; }
+      .nz-signup-container .nz-signup-container-column form.nz-signup-form-user {
+        height: 90%; }
+    .nz-signup-container .nz-signup-container-column.nz-signup-form-container {
+      justify-content: space-between; }
+    .nz-signup-container .nz-signup-container-column .nz-button {
+      margin: 10.2% auto 6% auto; }
+    .nz-signup-container .nz-signup-container-column p {
+      font-family: 'Roboto';
+      margin: 0 auto;
+      color: #4e4d4d; }
+      .nz-signup-container .nz-signup-container-column p a {
+        margin-left: 0.3em;
+        cursor: pointer;
+        color: #1fbaff; }
+
+        
+
+        .nz-signup-form-details, .nz-signup-form-user{
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          justify-content: space-between;
+        }
+        .form-field-error {
+          margin-right: 1em;
+          font-size: 0.8em;
+          color: red;
+        }
+        
+        button:disabled {
+          opacity: .5;
+          cursor: not-allowed !important;
+        }
+
+        .nz-signup-form-details p {
+          margin-left: 0;
+          margin-top: 0.1px;
+        }
+        .nz-signup-form-details field{
+          margin-bottom: 10px;
+        }
+        .nz-hide-password {
+          margin-top: -60px;
+          position: relative;
+          margin-right: 200px;
+          margin-left: 340px;
+        }
